@@ -1,0 +1,443 @@
+#main-box {
+    width: 1920px;
+    height: 1078px;
+}
+
+
+#Boss {
+
+    width: 1900px;
+    height: 1078px;
+    background-image: url('../../public/images/My\ project.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+
+#image1 {
+
+    /* top:274px; */
+    left: -104px;
+    width: 836px;
+    height: 836px;
+
+
+    /* //position: relative; */
+
+    background: transparent url('../../public//images/mocal-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.box1 {
+    height: 1078px;
+    width: 632px;
+}
+
+#text-box {
+    position: absolute;
+    top: 81px;
+    left: 154px;
+    width: 346px;
+    height: 149px;
+}
+
+#text-box-1 {
+    margin-top: 81px;
+    margin-left: 154px;
+    top: 81px;
+    left: 154px;
+    width: 346px;
+    height: 149px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 900 61px/66px Avenir;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+#welcome {
+    top: 0px;
+    left: 0px;
+    width: 346px;
+    height: 83px;
+    /* UI Properties */
+    color: #BA8AC7;
+    text-align: left;
+    font: normal normal 900 61px/66px Avenir;
+    letter-spacing: 0px;
+
+}
+
+#mocal {
+    top: 66px;
+    left: 0px;
+    width: 212px;
+    height: 83px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 900 61px/66px Avenir;
+    letter-spacing: 0px;
+    color: #FDEC07;
+}
+
+#text-box-2 {
+    top: 242px;
+    margin-top: 12px;
+    margin-left: 154px;
+    width: 344px;
+    height: 77px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 900 27px/40px Avenir;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+
+
+#img {
+    width: 732px;
+    height: 836px;
+}
+
+
+
+.child3 {
+    width: 500px;
+    height: 878px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+}
+
+#image3 {
+    top: 100px;
+    left: 1315px;
+    width: 605px;
+    height: 878px;
+    /* width: 938px;
+    height: 878px; */
+    background: transparent url('../../public/images/Group\ 15847.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+#para {
+    height: 100px;
+    margin: 0;
+    padding-top: 380px;
+    padding-right: 50px;
+    padding-left: 80px;
+}
+
+.p {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.child2 {
+    margin-top: 216px;
+    left: 676px;
+    width: 568px;
+    height: 647px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #00000029;
+    border-radius: 26px;
+    opacity: 1;
+}
+
+#logo {
+    top: 270px;
+    left: 861px;
+    width: 198px;
+    height: 68px;
+    /* UI Properties */
+    background: transparent url('../../public//images/Mocal Logo 2@4x-8.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 54px;
+    margin-left: 185px;
+    margin-right: 185px;
+}
+
+#form {
+    top: 411px;
+    left: 715px;
+    width: 489px;
+    height: 408px;
+    /* UI Properties */
+    opacity: 1;
+    margin-left: 39.45px;
+    margin-right: 39.45px;
+    margin-top: 73.45px;
+}
+
+#mic {
+    margin-top: 13px;
+}
+
+
+
+
+
+
+/* ///////////////////////////PHONE////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+@media (max-width: 767px){
+    #main-box {
+        width: 767px;
+        /* height: 1078px;  */
+    }
+
+    .container {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #box-1 {
+        flex-basis: calc(50% - 20px);
+
+        width: 767px;
+    }
+
+    #Boss {
+
+
+
+        width: 300px;
+
+        background-image: url('../../public/images/My\ project.png');
+        background-size: cover;
+        background-position: center;
+        /* transform: rotate(90deg); */
+    }
+    #img{
+        width: 300px;
+        height: 400px;
+        /* overflow: hidden;
+        position: absolute; */
+       
+     
+       }
+    #image1{
+        height: 400px;
+        width: 300px;
+        margin-top: -180px;
+        margin-left: 500px;
+        padding:40px ;
+        box-sizing: border-box;
+        background: transparent url('../../public/images/mocal-1.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        background-size: cover;
+            background-position: center;
+            
+    
+       }
+       .child2{
+        height: 700px;
+        width: 600px;
+        margin-left: 100px;
+       margin-top: -520px;
+       
+        /* padding-bottom: 900px; */
+        
+       }
+       .child3 {
+        width: 700px;
+        height: 678px;
+       
+       
+    }
+    
+    #image3 {
+       
+        width: 600px;
+        height: 550px;
+        /* width: 938px;
+        height: 878px; */
+        background: transparent url('../../public/images/Group\ 15847.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        
+        background-size: cover;
+        margin-right: 100px;
+            
+    
+    }
+    
+    #para {
+        height: 200px;
+        margin: 0;
+        padding-top: 380px;
+        padding-right: 50px;
+        padding-left: 80px;
+        
+    }
+    
+    .p {
+        font-size: 30px;
+        color: #FFFFFF;
+        text-align: left;
+        margin-top: -180px;
+    }
+
+}
+
+/* 
+///////////////////////tab//////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Tablet View:  */
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #main-box {
+        width: 992px;
+        height: 1078px;
+        
+        /* height: 1078px;  */
+    }
+
+    #text-1 {
+        text-align: center;
+
+
+
+
+    }
+
+    .container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+
+    /* .box1 {
+        margin-left: 500px;
+    } */
+
+    #box-1 {
+        flex-basis: calc(50% - 20px);
+        margin: auto;
+        margin-bottom: -800px;
+
+
+    }
+
+    #Boss {
+
+
+
+        width: 900px;
+        
+
+        background-image: url('../../public/images/Group\ 15848.png');
+        background-size: cover;
+        background-position: center;
+        /* transform: rotate(90deg); */
+    }
+
+    
+
+    #text-box-1 {
+        /* margin: auto; */
+        width: 500px;
+        height: 180px;
+       
+        margin-top: 50px;
+        margin-left:380px ;
+        
+        
+        /* font-size: 180px; */
+    }
+    #text-1{
+        font-size: 80px;
+        margin-bottom: 20px;
+    }
+    #mocal{
+        font-size: 80px;
+        margin-top: 50px;
+    }
+    #text-box-2{
+       
+        margin-left: 300px;
+        
+        width: 600px;
+
+    }
+
+    #only{
+        font-size: 30px;
+        width: 80px;
+    }
+
+   #img{
+    width: 400px;
+    height: 900px;
+    overflow: hidden;
+    position: absolute;
+   
+ 
+   }
+   #image1{
+    width: 400px;
+    height: 700px;
+    padding:40px ;
+    box-sizing: border-box;
+    background: transparent url('../../public/images/mocal-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: cover;
+        background-position: center;
+        margin-top: 200px;
+
+   }
+   .child2{
+    height: 700px;
+    width: 600px;
+    margin-left: 350px;
+   margin-top: -700px;
+   
+    /* padding-bottom: 900px; */
+    
+   }
+   .child3{
+    /* width: 800px;
+    height: 920px; */
+    margin-top: 30px;
+    /* margin-left: 50px; */
+   }
+   #image3 {
+    top: 100px;
+    left: 1315px;
+    width: 900px;
+    height: 900px;
+  
+    /* width: 938px;
+    height: 878px; */
+    background: transparent url('../../public/images/Group\ 15847.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: cover;padding-right: 0px;
+    /* background-position: center; */
+
+}
+#para{
+    padding-top: 300px;
+    padding-left: 190px;
+}
+.p{
+    font-size: 35px;
+
+}
+}

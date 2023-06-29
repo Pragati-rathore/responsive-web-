@@ -1,0 +1,77 @@
+#email {
+
+    top: 411px;
+    left: 752px;
+    width: 307px;
+    height: 25px;
+    /* UI Properties */
+    text-align: left;
+    margin-left: 0;
+    letter-spacing: 0px;
+    color: #707070;
+
+
+    opacity: 1;
+}
+
+
+#forget {
+    margin-left: 20px;
+    font-size: 18px;
+    width: 200px;
+    height: 19px;
+    margin-top: 25px;
+    text-decoration: underline;
+    font: normal normal medium 14px/28px Avenir;
+    letter-spacing: 0px;
+    color: #0073E6;
+    opacity: 1
+}
+
+#button {
+   
+    top: 573px;
+    left: 894px;
+    width: 140px;
+    height: 35px;
+    /* UI Properties */
+    background: #6E0D88 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    opacity: 1;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+}
+
+#or{
+   margin-top: 50px;
+}
+
+#Buttoms{
+   margin-top: 50px;
+}
+
+#user{
+   margin-top: 30px;
+   width: 235px;
+   height: 22px;
+   font: normal normal medium 16px/28px Avenir;
+}
+
+#fornt-size{
+    margin-left: 8px;
+    border: none;
+                    
+                    background: none;
+                   
+                  
+                    font: Avenir;
+                    text-decoration: underline;
+
+                    /* height: 55px; */
+                    color: #0073E6;
+                    font-size: 20px;
+                    border-color: none;
+                 
+}
